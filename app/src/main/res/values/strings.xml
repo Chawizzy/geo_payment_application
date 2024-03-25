@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Geo Payment Application</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+
+    <string-array name="bank_name">
+        <item>ABSA</item>
+        <item>FNB</item>
+        <item>Standard</item>
+        <item>Stanbic</item>
+        <item>Bank ABC</item>
+    </string-array>
+</resources>

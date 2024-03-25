@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="da">
+        <attr name="navigation_background_color" format="color"/>
+        <attr name="button_background_color" format="color"/>
+        <attr name="button_background_color_hover" format="color"/>
+        <attr name="card_background_color" format="color"/>
+    </declare-styleable>
+</resources>

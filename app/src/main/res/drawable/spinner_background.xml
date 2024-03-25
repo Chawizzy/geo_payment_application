@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/white"/>
+                    <padding android:right="14dp" android:bottom="14dp" android:left="14dp" android:top="14dp"/>
+
+                </shape>
+            </item>
+            <item android:gravity="right" android:drawable="@drawable/spinner_icon"/>
+        </layer-list>
+    </item>
+</selector>

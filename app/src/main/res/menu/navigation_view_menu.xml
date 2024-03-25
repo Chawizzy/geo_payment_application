@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_navigation"
+            android:title="Home"/>
+    </group>
+
+    <group
+        android:id="@+id/group_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/send_money_navigation"
+            android:title="Send money"/>
+    </group>
+
+    <group
+        android:id="@+id/group_3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/receive_money_navigation"
+            android:title="Receive money"/>
+    </group>
+
+    <group
+        android:id="@+id/group_5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/history_navigation"
+            android:title="History"/>
+    </group>
+
+    <group
+        android:id="@+id/group_6"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings_navigation"
+            android:title="Settings"/>
+    </group>
+
+    <group
+        android:id="@+id/group_7"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/help_navigation"
+            android:title="Help"/>
+    </group>
+
+    <group
+        android:id="@+id/group_8"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/about_navigation"
+            android:title="About"/>
+    </group>
+</menu>

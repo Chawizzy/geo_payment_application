@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="LightTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/light_background_color</item>
+        <item name="colorPrimary">@color/light_background_color</item>
+        <item name="colorPrimaryDark">@color/light_background_color</item>
+        <item name="colorAccent">@color/light_background_color</item>
+        <item name="navigation_background_color">@color/light_background_color</item>
+
+        <item name="button_background_color">@color/light_button_background_color</item>
+        <item name="button_background_color_hover">@color/light_button_background_color_hover</item>
+
+        <item name="card_background_color">@color/light_card_background_color</item>
+
+        <!--I used this to remove the snack-bar margin-->
+        <item name="snackbarStyle">@style/SnackBarStyle</item>
+    </style>
+
+    <style name="Theme.GeoPaymentApplication" parent="LightTheme" />
+</resources>
